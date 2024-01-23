@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.image-container{
+    width: 100%;
+    overflow: hidden;
+}
+img{
+   
+    height: auto;
+    width: fit-content;
+}
+img::after{
+    background-color: rgb(71, 69, 69);
+}
