@@ -3,7 +3,7 @@ import nyungwe from '../../assets/nyungwe.jpeg'
 
 const Display = () => {
   return (
-    <div className='image-container'>
+    <div className='img-container'>
         <img src={nyungwe} />
     </div>
   )

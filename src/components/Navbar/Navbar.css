@@ -37,4 +37,10 @@
 }
 .logo-container img{
     width: 30px;
+    margin-right: 9px;
+}
+.logo-container p{
+    margin-right: 8px;
+    padding: -5px;
+    color: green;
 }
