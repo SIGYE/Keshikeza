@@ -21,6 +21,9 @@ const Navbar = () => {
             <li><a href="#">Contact</a></li>
           
           <button className='register'>Register</button>
+          <div className='image-container'>
+        <img src={nyungwe} />
+    </div>
           
         </div>
       
