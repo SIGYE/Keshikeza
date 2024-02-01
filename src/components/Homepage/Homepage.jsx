@@ -1,13 +1,17 @@
-import Display from "../Display/Display";
+import DisplayContent from "../DisplayContent/DisplayContent";
 import Navbar from "../Navbar/Navbar";
+import './Homepage.css';
 
 
 
 const Homepage = () => {
   return (
     <div>
-         <Navbar/>
-        <Display/>
+      <div className="top">
+      <Navbar/>
+        <DisplayContent/>
+      </div>
+      
        
         
     </div>
