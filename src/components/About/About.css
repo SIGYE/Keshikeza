@@ -1,0 +1,7 @@
+.image-container img{
+    width: 400px;
+    height: auto;
+    flex-direction: column;
+    margin-top: 30rem;
+    margin-left: 10rem;
+}

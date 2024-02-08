@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+  width: fit-content;
+}
 .top {
     position: relative;
     background-image: url("../../assets/nyungwe.jpeg");
