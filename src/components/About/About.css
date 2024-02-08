@@ -3,5 +3,10 @@
     height: auto;
     flex-direction: column;
     margin-top: 30rem;
-    margin-left: 10rem;
+    margin-left: 7rem;
+}
+.texts h1{
+    position: absolute;
+    flex-direction: row;
+    display: flex;
 }
