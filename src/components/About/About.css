@@ -30,6 +30,9 @@
     top: 20px;
     white-space: nowrap;
     align-items: center;
-    margin-left: 2rem;
     
+}
+.welcome h1{
+    margin-top: 2rem;
+   left: 20px;
 }
