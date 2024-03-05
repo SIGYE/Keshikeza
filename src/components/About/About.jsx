@@ -6,13 +6,13 @@ import './About.css'
 const About = () => {
   return (
     <>
-    <div className="container">
+    
     <div className='image-container'>
         <img src={gorilla} alt="" />
     </div>
     <div className="texts">
+      <img src={Line4} alt=""/>
       <h1>ABOUT US</h1>
-    </div>
     </div>
     </>
     

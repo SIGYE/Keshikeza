@@ -1,5 +1,3 @@
-
-
 .image-container img{
     width: 400px;
     height: auto;
@@ -12,10 +10,18 @@
     justify-content: flex-end;
     align-items: center;
     flex: 1;
+    display: flex;
+    position: absolute;
+    left: 35rem;
+    margin-top: -16rem; 
 }
 .texts h1{
-   
     color: greenyellow;
     flex: 1;
-    
+}
+.texts img{
+    position: absolute;
+    right: -70px;
+   width: min-content;
+   margin-top: 10px;
 }
