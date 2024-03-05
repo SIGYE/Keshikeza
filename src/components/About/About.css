@@ -1,14 +1,21 @@
+
+
 .image-container img{
     width: 400px;
     height: auto;
     flex-direction: column;
     margin-top: 30rem;
     margin-left: 7rem;
+    flex: 1;
+}
+.texts {
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
 }
 .texts h1{
+   
     color: greenyellow;
-    font-family: sans-serif;
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 1rem;
+    flex: 1;
+    
 }
