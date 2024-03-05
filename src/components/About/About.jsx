@@ -12,7 +12,8 @@ const About = () => {
     </div>
     <div className="texts">
       <img src={Line4} alt=""/>
-      <h1>ABOUT US</h1>
+      <h2>ABOUT US</h2>
+      <h1>Welcome to KENSHIKEZA</h1>
     </div>
     </>
     

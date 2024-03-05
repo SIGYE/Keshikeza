@@ -15,7 +15,7 @@
     left: 35rem;
     margin-top: -16rem; 
 }
-.texts h1{
+.texts h2{
     color: greenyellow;
     flex: 1;
 }
@@ -24,4 +24,7 @@
     right: -70px;
    width: min-content;
    margin-top: 10px;
+}
+.texts h1{
+    position: relative;
 }
