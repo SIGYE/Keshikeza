@@ -6,7 +6,9 @@
     margin-left: 7rem;
 }
 .texts h1{
-    position: absolute;
-    flex-direction: row;
+    color: greenyellow;
+    font-family: sans-serif;
     display: flex;
+    justify-content: flex-end;
+    margin-left: 1rem;
 }
