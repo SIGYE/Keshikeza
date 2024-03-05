@@ -25,6 +25,11 @@
    width: min-content;
    margin-top: 10px;
 }
-.texts h1{
-    position: relative;
+.welcome{
+    position: absolute;
+    top: 20px;
+    white-space: nowrap;
+    align-items: center;
+    margin-left: 2rem;
+    
 }

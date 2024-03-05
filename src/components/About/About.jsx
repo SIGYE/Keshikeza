@@ -13,8 +13,11 @@ const About = () => {
     <div className="texts">
       <img src={Line4} alt=""/>
       <h2>ABOUT US</h2>
-      <h1>Welcome to KENSHIKEZA</h1>
+      <div className="welcome">
+      <h1>Welcome to <span>KENSHIKEZA</span></h1>
     </div>
+    </div>
+    
     </>
     
   )
