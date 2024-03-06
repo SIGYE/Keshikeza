@@ -42,3 +42,13 @@
 .welcome span{
     color: greenyellow;
 }
+.welcome p{
+    position: absolute;
+    padding: 2rem;
+    margin-left: -8rem;
+    font-size: small;
+    margin-top: 3rem;
+    flex-direction: column;
+    align-content: calc(10);
+}
+
