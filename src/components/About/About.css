@@ -49,6 +49,13 @@
     font-size: small;
     margin-top: 3rem;
     flex-direction: column;
-    align-content: calc(10);
+    font-family: sans-serif;
+    text-align: start;
+}
+.dest-buttons{
+    position: absolute;
+    white-space: nowrap;
+    margin-top: 25rem;
+    margin-right: -3rem;
 }
 
