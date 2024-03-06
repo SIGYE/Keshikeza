@@ -2,7 +2,7 @@ import React from 'react'
 import gorilla from '../../assets/gorilla.jpg'
 import Line4 from '../../assets/Line 4.png'
 import './About.css'
-import {arrow-right} from 'react-icons'
+import { GoArrowRight } from "react-icons/go";
 
 const About = () => {
   return (
@@ -23,7 +23,11 @@ const About = () => {
          </p>
     </div>
       <div className="dest-buttons">
-        <a href="#">First Class </a>
+        <a href="#"><GoArrowRight color='greenyellow'/>First Class Flights</a>
+        <a href="#"><GoArrowRight color='greenyellow'/>First Class Flights</a>
+        <a href="#"><GoArrowRight color='greenyellow'/>First Class Flights</a>
+        <a href="#"><GoArrowRight color='greenyellow'/>First Class Flights</a>
+        
       </div>
     </div>
     
