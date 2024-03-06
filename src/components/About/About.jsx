@@ -15,6 +15,7 @@ const About = () => {
       <h2>ABOUT US</h2>
       <div className="welcome">
       <h1>Welcome to <span>KENSHIKEZA</span></h1>
+      <p>Kenshikeza is </p>
     </div>
     </div>
     
