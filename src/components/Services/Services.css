@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.service{
+    margin-left: 40rem;
+    margin-top: 12rem;
+    
+}
+.service h2{
+    color: greenyellow;
+    font-size: larger;
+}
+.service h1{
+    margin-top: 2rem;
+    font-size: xx-large;
+    margin-left: -3rem;
+}
+.service-cards{
+    align-content: center;
+    background-color: rgb(211, 206, 206);
+    height: 12rem;
+    margin-left: 5rem;
+    margin-top: 20rem;
+}
+.service-cards h1{
+    margin-top: 1.3rem;
+}
+.service-cards  p{
+    margin-top: 0.6rem;
+    text-align: start;
+}
+.one{
+    position: absolute;
+    margin-left: -5rem;
+    margin-top: 0.8rem;
+}
+.two{
+    margin-left: 5.3rem;
+    margin-top: -1rem;
+}
