@@ -1,14 +1,31 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import gorilla from '../../assets/gorilla.jpg'
 import Line4 from '../../assets/Line 4.png'
 import './About.css'
 import { GoArrowRight } from "react-icons/go";
 
 const About = () => {
+  const [scrolled, setScrolled] = useState(false)
+ 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <>
     
-    <div className='image-container'>
+    <div className={`image-container ${scrolled ? 'scrolled' : ''}`}>
         <img src={gorilla} alt="" />
     </div>
     <div className="texts">

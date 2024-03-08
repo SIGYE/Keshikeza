@@ -5,6 +5,10 @@
     margin-top: 30rem;
     margin-left: 7rem;
     flex: 1;
+    transition: opacity 0.5 ease-in-out;
+}
+.scrolled .image-container img{
+    opacity: 1;
 }
 .texts {
     justify-content: flex-end;
