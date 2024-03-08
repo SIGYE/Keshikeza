@@ -24,11 +24,14 @@ const About = () => {
     </div>
       <div className="dest-buttons">
         <a href="#"><GoArrowRight color='greenyellow'/>First Class Flights</a>
-        <a href="#"><GoArrowRight color='greenyellow'/>First Class Flights</a>
-        <a href="#"><GoArrowRight color='greenyellow'/>First Class Flights</a>
-        <a href="#"><GoArrowRight color='greenyellow'/>First Class Flights</a>
-        
+        <a href="#"><GoArrowRight color='greenyellow'/>Handpicked Hotels</a>
+        <a href="#"><GoArrowRight color='greenyellow'/>Accommodations</a>
+        <a href="#"><GoArrowRight color='greenyellow'/>Latest  model Vehicles</a>
+        <a href="#"><GoArrowRight color='greenyellow'/>Premium City Tours</a>
+        <a href="#"><GoArrowRight color='greenyellow' />24/7 Services</a>        
       </div>
+      
+      <button className="about-button">Explore More</button>
     </div>
     
     </>

@@ -55,11 +55,14 @@
 .dest-buttons{
     position: absolute;
     white-space: nowrap;
-    margin-top: 25rem;
-    margin-right: -3rem;
+    margin-top: 28rem;
+    margin-right: -14rem;   
     display: grid;
-    grid-template-columns: repeat(2,2fr);
-    place-items: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 10px;
+    
 }
 .dest-buttons a{
     display: flex;
@@ -69,7 +72,7 @@
     font-size: small;
 }
 .dest-buttons :hover{
-    color: greenyellow;
+    color: rgb(147, 223, 34);
 }
 .dest-buttons::before{
     transform: scaleX(0);
@@ -77,5 +80,19 @@
 }
 .dest-buttons:hover::before{
     transform: scaleX(1);
+}
+.about-button{
+    position: absolute;
+    white-space: nowrap;
+    margin-top: 40rem;
+    margin-right: -8rem;
+    background-color: rgb(147, 224, 31);
+    width: 8rem;
+    height: 2.1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: small;
+    border-radius: 10px;
+    color: white;
 }
 

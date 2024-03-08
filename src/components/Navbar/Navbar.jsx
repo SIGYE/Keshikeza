@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="full-container">
       
         <div className='logo-container'>
-        <img src={logo} />
+        <img src={logo} color='greenyellow'/>
         <p>|</p>
           <h1>KENSHIKEZA</h1>
         </div>

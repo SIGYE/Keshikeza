@@ -25,9 +25,9 @@
 }
 .register{
     border-radius: 10px;
-    background-color: rgb(150, 218, 48);
+    background-color: rgb(147, 224, 31);
     width: 100px;
-    border-color: rgb(150, 218, 48);
+    border-color: rgb(147, 224, 31);
     color: white;
 }
 .register :hover{
